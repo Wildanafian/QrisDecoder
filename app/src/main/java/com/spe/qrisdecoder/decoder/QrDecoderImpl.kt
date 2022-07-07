@@ -9,7 +9,7 @@ import org.json.JSONObject
  * Github https://github.com/Wildanafian
  * wildanafian8@gmail.com
  */
-class QrDecoderImpl : QrDecoder {
+internal class QrDecoderImpl : QrDecoder {
     override fun decodeString(data: String): String {
         val resultData = JSONObject()
         if (data.checkValidity()) {

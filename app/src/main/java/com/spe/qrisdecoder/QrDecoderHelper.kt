@@ -16,7 +16,7 @@ class QrDecoderHelper : DecoderHelper() {
 
     fun getResult(): QrData = result()
 
-    fun getResultRawData(): QrDataRawTag = resultRawTag()
+    fun getResultRawTag(): QrDataRawTag = resultRawTag()
 
     fun getResultInString(): String = resultString()
 }

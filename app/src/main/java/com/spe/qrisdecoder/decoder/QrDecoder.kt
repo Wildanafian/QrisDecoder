@@ -6,6 +6,6 @@ package com.spe.qrisdecoder.decoder
  * Github https://github.com/Wildanafian
  * wildanafian8@gmail.com
  */
-interface QrDecoder {
+internal interface QrDecoder {
     fun decodeString(data: String): String
 }
